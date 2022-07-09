@@ -1,0 +1,72 @@
+.menu {
+  z-index: 9999;
+  overflow: hidden;
+  background: var(--bg-light);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 280px;
+  transition-duration: 0.3s;
+  max-height: 100vh;
+  overflow: hidden auto;
+}
+.menu-item {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding-left: 2rem;
+    text-decoration: none;
+    color: var(--almost-white);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.menu-item:hover{
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--almost-white);
+  transition-duration: 0.3s;
+}
+.menu-item-logo{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  height: 50px;
+  font-size: 24px;
+  color: var(--pb-bright);
+
+}
+.menu-item-text {
+  display: flex;
+  line-height: 50px;
+  font-size: 20px;
+  white-space: nowrap;
+  word-break: keep-all;
+  text-overflow: ellipsis;
+  overflow: visible;
+}
+
+.separator {
+    display: flex;
+    height: 25px;
+}
+
+body:not(.navbar-active){
+  padding-left: 50px;
+  transition-duration: 0.3s;
+}
+
+body:not(.navbar-active) .modal{
+  padding-left: 50px;
+  transition-duration: 0.3s;
+}
+
+body:not(.navbar-active) .menu{
+  width: 50px;
+  transition-duration: 0.3s;
+}
+body:not(.navbar-active) .menu-item{
+  padding-left: 0;
+}

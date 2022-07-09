@@ -1,0 +1,50 @@
+.sc-med-to-bright::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.sc-med-to-bright::-webkit-scrollbar-thumb {
+  background: var(--pb-medium) !important;
+  border-radius: 6px !important;
+}
+
+.sc-med-to-bright::-webkit-scrollbar-thumb:hover,
+.sc-med-to-bright::-webkit-scrollbar-thumb:active {
+  background: var(--pb-bright) !important;
+}
+
+.sc-med-to-bright::-webkit-scrollbar-track {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+.sc-med-to-bright::-webkit-scrollbar-button,
+.sc-med-to-bright::-webkit-scrollbar-corner {
+  display: none !important;
+}
+
+
+.sc-med-to-bright-menu::-webkit-scrollbar {
+  width: 4px !important;
+  height: 4px !important;
+}
+
+.sc-med-to-bright-menu::-webkit-scrollbar-thumb {
+  background: var(--pb-medium) !important;
+  border-radius: 6px !important;
+}
+
+.sc-med-to-bright-menu::-webkit-scrollbar-thumb:hover,
+.sc-med-to-bright-menu::-webkit-scrollbar-thumb:active {
+  background: var(--pb-bright) !important;
+}
+
+.sc-med-to-bright-menu::-webkit-scrollbar-track {
+  width: 4px !important;
+  height: 4px !important;
+}
+
+.sc-med-to-bright-menu::-webkit-scrollbar-button,
+.sc-med-to-bright-menu::-webkit-scrollbar-corner {
+  display: none !important;
+}
